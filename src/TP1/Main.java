@@ -67,7 +67,8 @@ public class Main {
             }
         }
 
-        // Print the results (note that if there are duplicated max and min it will take first in array)
+        // Print the results (note that if there are duplicated max and min it will take last in array)
+        // can be solved by using an array for storing min/maxPostion and adding each position.
         System.out.printf("The minimum found is %d at position %s\n", min, minPosition);
         System.out.printf("The minimum found is %d at position %s\n", max, maxPosition);
 
