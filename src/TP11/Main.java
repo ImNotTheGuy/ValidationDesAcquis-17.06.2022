@@ -23,7 +23,6 @@ public class Main {
 
         bibliothequeMunicipale.listerExemplaires();
 
-
         bibliothequeMunicipale.afficherAuteur(marionExemplaire, true);
 
 
